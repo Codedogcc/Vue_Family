@@ -6,7 +6,7 @@
 </template>
 
 <script>
-	// import {hunhe,hunhe2} from '../mixin'
+	import {hunhe,hunhe2} from '../mixin'
 
 	export default {
 		name:'Student',
@@ -16,6 +16,6 @@
 				sex:'男'
 			}
 		},
-		// mixins:[hunhe,hunhe2]
+		mixins:[hunhe,hunhe2]
 	}
 </script>
